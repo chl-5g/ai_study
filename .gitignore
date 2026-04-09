@@ -1,10 +1,10 @@
 .DS_Store
 
 # 简历与个人材料（仅本地保留，勿入库）
-Resume/*.jpg *.pdf *.docx *.tex
+Resume/*.jpg
+Resume/*.pdf
+Resume/*.docx
+Resume/*.tex
 
 # Jupyter
 **/.ipynb_checkpoints/
-
-# 含个人规划细节的文档
-学习计划（补充完整版）.docx
