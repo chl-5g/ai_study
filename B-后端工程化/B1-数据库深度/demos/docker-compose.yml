@@ -1,0 +1,45 @@
+# B1 Demos 的本地依赖环境
+# 启动：docker compose up -d
+# 停止：docker compose down
+# 清数据：docker compose down -v
+
+services:
+  postgres:
+    # 使用官方 pgvector 镜像，已内置 pgvector 扩展
+    # tag pg16 = PostgreSQL 16，当前主流生产版本
+    image: pgvector/pgvector:pg16
+    container_name: b1_pg
+    environment:
+      POSTGRES_USER: demo
+      POSTGRES_PASSWORD: demo
+      POSTGRES_DB: demo
+    ports:
+      # 本机 5433 → 容器 5432，避开本机可能已有的 5432
+      - "5433:5432"
+    volumes:
+      - b1_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U demo -d demo"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    container_name: b1_redis
+    ports:
+      # 本机 6380 → 容器 6379，避开本机可能已有的 6379
+      - "6380:6379"
+    volumes:
+      - b1_redis_data:/data
+    # appendonly 开启持久化，Stream 数据不丢
+    command: ["redis-server", "--appendonly", "yes"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  b1_pg_data:
+  b1_redis_data:
