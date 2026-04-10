@@ -8,3 +8,10 @@ Resume/*.tex
 
 # Jupyter
 **/.ipynb_checkpoints/
+
+# 本地虚拟环境
+**/.venv/
+
+# Python / pytest 缓存（各章 demos 运行产生）
+**/__pycache__/
+**/.pytest_cache/

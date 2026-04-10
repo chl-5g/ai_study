@@ -1,0 +1,19 @@
+# B5 示例：Web + PostgreSQL（数据库仅作编排演示，应用代码未连库）
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgresql://demo:demo@db:5432/demo
+
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: demo
+      POSTGRES_PASSWORD: demo
+      POSTGRES_DB: demo
+    ports:
+      - "5433:5432"
