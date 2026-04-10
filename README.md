@@ -1,4 +1,4 @@
-# ai_study
+# ai_study AI工程化学习
 
 个人 **AI 应用 / Agent / Python 后端工程化** 学习笔记与 Demo 仓库。内容按模块分目录存放，与根目录的进度文档配合使用。
 
