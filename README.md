@@ -8,12 +8,10 @@
 
 | 目录 | 内容 |
 |------|------|
-| [A-Python基础](A-Python基础/) | A1 Pythonic 与标准库（含 `demos/`）、A2 网络与 HTTP |
-| [B-数据与LLM应用](B-数据与LLM应用/) | B1 AI 应用方向、B2 NumPy / Pandas 基础 |
-| [C-RAG与知识库](C-RAG与知识库/) | RAG 相关实践（含 `demos/`） |
-| [D-中间件与服务化](D-中间件与服务化/) | 数据库、FastAPI、并发异步、测试与 CI、Docker、消息队列、SSE/WebSocket、微服务与系统设计 |
-| [E-AI-Agent](E-AI-Agent/) | Skills / MCP / 单 Agent / 多 Agent / Function Calling / 可观测性（各子章含 `demos/`） |
-| [F-求职与面试](F-求职与面试/) | 面试与叙事线（占位，随学习补充） |
+| [A-Python基础](A-Python基础/) | **A1** Pythonic 与标准库（`理论讲解.md` + `demos/`）；**A2** 网络与 HTTP（`理论讲解.md` 已按与 A1 相同的 Why/What/How 结构补全第 3–21 节，含 `demos/`） |
+| [B-后端工程化](B-后端工程化/) | B1 数据库深度、B2 FastAPI 深度、B3 并发与异步、B4 测试与 CI、B5 Docker 与部署、B6 消息队列与任务队列、B7 SSE 与 WebSocket、B8 微服务与系统设计（各章含 `理论讲解.md`，部分含 `demos/`） |
+| [C-AI-Agent全栈](C-AI-Agent全栈/) | C1 LLM 与 Prompt、C2 数据处理、C3 RAG 与知识库、C4 Function Calling、C5 工具链与 MCP、C6 单 Agent、C7 多 Agent、C8 可观测性（随学习补充） |
+| [D-求职面试](D-求职面试/) | 面试与叙事线（占位，随学习补充） |
 | [Resume](Resume/) | 简历 LaTeX 工具链说明与构建脚本（见该目录 `README.md`） |
 
 根目录其他文件：
