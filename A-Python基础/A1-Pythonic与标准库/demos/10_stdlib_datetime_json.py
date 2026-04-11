@@ -104,7 +104,7 @@ if __name__ == "__main__":
 
     # Python dict → JSON 字符串 (序列化)
     data = {
-        "name": "蔡昊伦",
+        "name": "张三",
         "age": 30,
         "skills": ["Python", "Rust", "AI"],
         "is_active": True,

@@ -49,7 +49,7 @@ def main() -> None:
     headers = {"Authorization": f"Bearer {KEY}", "Content-Type": "application/json"}
     messages = [
         {"role": "system", "content": "你必须使用工具回答用户关于城市时间的问题。"},
-        {"role": "user", "content": "福州现在几点？（请调用工具）"},
+        {"role": "user", "content": "杭州现在几点？（请调用工具）"},
     ]
     body = {
         "model": MODEL,

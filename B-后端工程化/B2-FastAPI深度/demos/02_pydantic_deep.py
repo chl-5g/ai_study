@@ -116,12 +116,12 @@ profile_data = {
         "email": "allen@example.com",
     },
     "company": {
-        "name": "星云大数据",
+        "name": "A公司",
         "address": {
-            "province": "福建",
-            "city": "福州",
+            "province": "浙江",
+            "city": "杭州",
             "street": "软件园A区",
-            "zip_code": "350001",
+            "zip_code": "310000",
         },
         "employee_count": 200,
     },

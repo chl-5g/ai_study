@@ -93,7 +93,7 @@ def demo_put_delete():
     # PUT：更新资源（全量替换）
     resp = requests.put(
         f"{BASE_URL}/put",
-        json={"name": "Allen Tsai", "role": "AI Engineer"},
+        json={"name": "Alice Wang", "role": "AI Engineer"},
         timeout=10
     )
     print(f"  PUT 响应: {resp.json()['json']}")

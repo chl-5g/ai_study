@@ -127,7 +127,7 @@ def main() -> None:
     print("已注册 tools（OpenAI 风格 schema 预览）：")
     print(json.dumps(list_tool_specs_for_api(), ensure_ascii=False, indent=2)[:800], "...\n")
 
-    for user in ["天气福州", "计算"]:
+    for user in ["天气杭州", "计算"]:
         print(f"\n=== 用户: {user} ===")
         msg = fake_model_decide(user)
         print("模型消息:", json.dumps(msg, ensure_ascii=False))

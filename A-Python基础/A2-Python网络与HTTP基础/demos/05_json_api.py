@@ -20,7 +20,7 @@ def demo_github_api():
     print("=" * 60)
 
     # GitHub API 是 RESTful 的典型代表
-    username = "chl-5g"
+    username = "octocat"
     url = f"https://api.github.com/users/{username}"
 
     resp = requests.get(url, timeout=10, headers={
@@ -62,7 +62,7 @@ def demo_weather_api():
     print("=" * 60)
 
     # wttr.in 支持 JSON 格式返回
-    city = "Fuzhou"
+    city = "Hangzhou"
     url = f"https://wttr.in/{city}"
     params = {"format": "j1"}  # JSON 格式
 
