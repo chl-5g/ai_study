@@ -8,7 +8,7 @@
 
 | 目录 | 内容 |
 |------|------|
-| [A-Python基础](A-Python基础/) | **A1** Pythonic 与标准库（`理论讲解.md` + `demos/`）；**A2** Python 网络与 HTTP 基础（目录 `A2-Python网络与HTTP基础/`，`理论讲解.md` 已按与 A1 相同的 Why/What/How 结构补全第 3–21 节，含 `demos/`） |
+| [A-Python基础](A-Python基础/) | **A1** Pythonic 与标准库（`理论讲解.md` + `demos/`）；**A2** Python 网络与 HTTP 基础（目录 `A2-Python网络与HTTP基础/`，`理论讲解.md` 已与 A1 体例对齐：第 0–22 节正文 + 第 23 节总结、各节「深度补充」与「三张卡片」小结，含 `demos/`） |
 | [B-后端工程化](B-后端工程化/) | B1–B9：`理论讲解.md` 全覆盖；**B9 设计模式**含 **GoF 23 整合速览（§2）** 及架构/集成/可靠性等扩展模式。B1–B9 均有可运行 `demos/`（以各章 `demos/README.md` 为准）；B4 建议在 `demos/` 内建 `.venv` 再 `pytest` |
 | [C-AI-Agent全栈](C-AI-Agent全栈/) | **索引**见 [C-AI-Agent全栈/README.md](C-AI-Agent全栈/README.md)。C1–C8 均有 `理论讲解.md` 与可运行 `demos/`（C4 见该章 `demos/requirements.txt`） |
 | [D-求职面试](D-求职面试/) | [Python + AI Agent 应用/架构 — 面试题与参考答案](D-求职面试/Python与AI-Agent应用开发-面试题.md)（无 demo）；索引见 [D-求职面试/README.md](D-求职面试/README.md) |
