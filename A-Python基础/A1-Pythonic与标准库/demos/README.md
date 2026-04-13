@@ -21,5 +21,6 @@
 | `13_stdlib_re.py` | §9 · re |
 | `14_todo_cli.py` | 综合小项目（可结合 §9–§11） |
 | `15_batch_rename.py` | 综合脚本（文件与路径） |
+| `16_git_via_python.py` | §12 Git：subprocess 演示速查表 +「main→feat→push PR→清理」工作流（init/clone/status/add/commit/push/pull/log/diff/show/branch/switch/checkout/merge/restore/revert/reset 等） |
 
 建议：每跑完一个文件，回到 `理论讲解.md` 对应节把 Checkpoint 勾一遍。
