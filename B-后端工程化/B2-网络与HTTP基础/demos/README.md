@@ -1,4 +1,4 @@
-# A2 网络与 HTTP — `demos/` 说明
+# B2 网络与 HTTP 基础 — `demos/` 说明
 
 在目录内运行：`python3 01_tcp_server_client.py` 等。第三方依赖见各文件注释（如 `requests`、`PyJWT`）。
 

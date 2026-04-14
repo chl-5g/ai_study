@@ -3,7 +3,7 @@
 在 Markdown 的 ### 小节下插入 **本节概念**（与 A1/A2 教材体例对齐）。
 
 用法（仓库根目录执行）：
-  python tools/inject_section_concepts.py "A-Python基础/A2-Python网络与HTTP基础/理论讲解.md"
+  python tools/inject_section_concepts.py "B-后端工程化/B2-网络与HTTP基础/理论讲解.md"
   python tools/inject_section_concepts.py "A-Python基础/A1-Pythonic与标准库/理论讲解.md" --dry-run
   python tools/inject_section_concepts.py "A-Python基础/A3-FastAPI深度/理论讲解.md"
 

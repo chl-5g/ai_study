@@ -8,8 +8,8 @@
 
 | 目录 | 内容 |
 |------|------|
-| [A-Python基础](A-Python基础/) | **A1** Pythonic 与标准库；**A2** Python 网络与 HTTP 基础（`A2-Python网络与HTTP基础/`）；**A3** FastAPI 深度（`A3-FastAPI深度/`）；**A4** 并发与异步（`A4-并发与异步/`）；**A5** 测试与 CI（`A5-测试与CI/`，`demos/` 内建议建 `.venv` 再 `pytest`）。各章均为 `理论讲解.md` + `demos/`（A2 体例与 A1 对齐：分节小结与对照实验） |
-| [B-后端工程化](B-后端工程化/) | **B1** 数据库深度；**B5–B9** Docker 与部署、消息队列与任务队列、SSE 与 WebSocket、微服务与系统设计、设计模式（原 B2–B4 已并入 **A-Python基础** 的 A3–A5）。各章 `理论讲解.md` + 可运行 `demos/`（以各章 `demos/README.md` 为准）；**B9** 含 **GoF 23 整合速览（§2）** |
+| [A-Python基础](A-Python基础/) | **A1** Pythonic 与标准库；**A3** FastAPI 深度；**A4** 并发与异步；**A5** 测试与 CI（`A5-测试与CI/` 的 `demos/` 内建议建 `.venv` 再 `pytest`）。各章均为 `理论讲解.md` + `demos/`。原在 **B-后端工程化** 的 FastAPI / 并发 / 测试三章已迁至 **A3–A5**。 |
+| [B-后端工程化](B-后端工程化/) | **B1** 数据库深度；**B2** 网络与 HTTP 基础（`B2-网络与HTTP基础/`，体例与 A1 对齐：分节小结与对照实验）；**B5–B9** Docker 与部署、消息队列与任务队列、SSE 与 WebSocket、微服务与系统设计、设计模式。各章 `理论讲解.md` + 可运行 `demos/`（以各章 `demos/README.md` 为准）；**B9** 含 **GoF 23 整合速览（§2）** |
 | [C-AI-Agent全栈](C-AI-Agent全栈/) | **索引**见 [C-AI-Agent全栈/README.md](C-AI-Agent全栈/README.md)。C1–C8 均有 `理论讲解.md` 与可运行 `demos/`（C4 见该章 `demos/requirements.txt`） |
 | [D-求职面试](D-求职面试/) | [Python + AI Agent 应用/架构 — 面试题与参考答案](D-求职面试/Python与AI-Agent应用开发-面试题.md)（无 demo）；索引见 [D-求职面试/README.md](D-求职面试/README.md) |
 | [Resume](Resume/) | 简历 LaTeX 工具链说明与构建脚本（见该目录 `README.md`） |
