@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-在 Markdown 的 ### 小节下插入 **本节概念**（与 A1/A2 教材体例对齐）。
+在 Markdown 的 ### 小节下插入 **本节概念**（与 A1、B2 等教材体例对齐）。
 
 用法（仓库根目录执行）：
   python tools/inject_section_concepts.py "B-后端工程化/B2-网络与HTTP基础/理论讲解.md"
