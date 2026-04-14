@@ -1,4 +1,4 @@
-# B2 FastAPI 深度 — `demos/` 说明
+# A3 FastAPI 深度 — `demos/` 说明
 
 在目录内执行（需 `pip install fastapi uvicorn pydantic` 等，见各文件头部注释）：
 

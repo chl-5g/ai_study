@@ -260,7 +260,7 @@ class TodoCreate(BaseModel):
         "json_schema_extra": {
             "examples": [{
                 "title": "学习 FastAPI",
-                "description": "完成 B2-FastAPI深度 的所有 demo",
+                "description": "完成 A3-FastAPI深度 的所有 demo",
                 "priority": "high",
                 "tags": ["python", "学习"],
                 "due_date": "2026-04-15",

@@ -5,6 +5,7 @@
 用法（仓库根目录执行）：
   python tools/inject_section_concepts.py "A-Python基础/A2-Python网络与HTTP基础/理论讲解.md"
   python tools/inject_section_concepts.py "A-Python基础/A1-Pythonic与标准库/理论讲解.md" --dry-run
+  python tools/inject_section_concepts.py "A-Python基础/A3-FastAPI深度/理论讲解.md"
 
 说明：
   - 默认跳过：Checkpoint、本节小结、三张卡片、动手实验、面试考点速查 等标题。

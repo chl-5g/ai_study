@@ -1,4 +1,4 @@
-# B4 测试与 CI — `demos/` 说明
+# A5 测试与 CI — `demos/` 说明
 
 ```bash
 cd demos

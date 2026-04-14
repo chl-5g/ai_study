@@ -1,4 +1,4 @@
-# B3 并发与异步 — `demos/` 说明
+# A4 并发与异步 — `demos/` 说明
 
 在目录内执行：`python3 01_gil_bench.py`（依此类推）。
 
