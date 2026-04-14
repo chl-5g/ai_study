@@ -187,5 +187,5 @@ if __name__ == "__main__":
     ✓ 需要服务端主动踢人下线
     ✓ 需要即时吊销权限
 
-  BetterYeah 这类 AI Agent 平台 → 大概率用 JWT
+  企业级 AI Agent 平台 → 大概率用 JWT
     """)
