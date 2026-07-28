@@ -12,6 +12,9 @@ Resume/*.tex
 # 本地虚拟环境
 **/.venv/
 
+# 外部参考仓库（不入库）
+open-agentic-repo-tmp/
+
 # Python / pytest 缓存（各章 demos 运行产生）
 **/__pycache__/
 **/.pytest_cache/
